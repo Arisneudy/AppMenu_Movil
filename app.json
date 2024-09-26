@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AppMenu",
+    "slug": "appmenu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arisneudys.AppMenu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arisneudys.AppMenu"
+    },
+    "web": {
+      "favicon": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9f42e2d8-f24e-4e9a-8c63-05c59c56df9d"
+      }
+    }
+  }
+}
