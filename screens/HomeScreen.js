@@ -8,7 +8,7 @@ import {
   Linking,
 } from "react-native";
 
-import Ft from "../assets/img.jpg";
+import Ft from "../assets/img.png";
 
 const HomeScreen = () => {
   const handleEmailSend = () => {
@@ -27,6 +27,12 @@ const HomeScreen = () => {
             Nombre:{" "}
           </Text>
           Arisneudy Santana Pozo
+        </Text>
+        <Text style={styles.infoText}>
+          <Text style={{ alignContent: "flex-start", fontWeight: "bold" }}>
+            Matricula:{" "}
+          </Text>
+          2022-1967
         </Text>
         <Text style={styles.infoText}>
           <Text style={{ alignContent: "flex-start", fontWeight: "bold" }}>
